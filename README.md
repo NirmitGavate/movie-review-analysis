@@ -1,11 +1,14 @@
-# Movie Review Analyzer
+# Movie Score Analyzer
 
-## Overview
-The **Movie Review Analyzer** is a tool that collects and analyzes movie reviews from audiences and critics on popular review platforms such as IMDb, Metacritic, and Fandango. It aggregates reviews, identifies trends, and provides insights into audience and critic sentiments. This tool is perfect for movie enthusiasts, filmmakers, and analysts seeking a deeper understanding of how movies are perceived across various platforms.
+### 1. Data Collection and Preprocessing
+- Gathered audience and critic ratings from IMDb, Metacritic, and Fandango.
+- Handled missing values and normalized scores for consistency.
 
-## Features
-- **Multi-Source Review Aggregation**: Collects reviews from IMDb, Metacritic, Fandango, and other popular platforms.
-- **Sentiment Analysis**: Analyzes reviews to determine audience and critic sentiments.
-- **Trend Identification**: Highlights trends and patterns in reviews (e.g., recurring positive or negative themes).
-- **Data Visualization**: Displays insights using graphs and charts for easier understanding.
-- **Customizable Analysis**: Filter results by platform, sentiment, or other criteria.
+### 2. Trend Analysis
+- Analyzed platform-wise rating trends to identify differences in scoring patterns across various platforms.
+
+### 3. Insights Extraction
+- Explored reviewer preferences and platform biases by comparing ratings from different sources.
+
+### 4. Visualization
+- Created comparison graphs and distributions of ratings to present platform-specific scoring behaviors effectively.
